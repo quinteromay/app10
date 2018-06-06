@@ -1,0 +1,637 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Aplicacion tutorial</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temafinal.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/archivos/deporte2.jpg','imagenes/clasificacion2.jpg','imagenes/conbatir2.jpg','imagenes/desaupoo2.jpg','imagenes/desaupoo3.jpg','imagenes/desaupoo6.jpg','imagenes/codigojava.png','imagenes/codigovisual.png','imagenes/codigopython.png','imagenes/codigophp.png','imagenes/diseño.jpg','imagenes/html.png','imagenes/Image2135.gif')">
+	
+    <div data-role="page" id="Principal" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Desarrolla Software de Apliaciones Utilizando Programacion Orientada a Objetos<br>(DSAUPOO) </h1>
+    </div>
+
+   
+      
+     
+
+
+
+
+
+    <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+     	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Definicion </h2>
+            <p></p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Tipos de lenguajes</h2>
+            <p></p>
+            
+           
+      </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Controles comunes</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Funciones de conversion de visual basic</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Analista</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>El  funcionamiento del sistema de informacion</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Proceso para la creacion de informe de datos</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>validacion y Realizacion del sistema de Informacion</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>La creacion del sistema de informacion</h2>
+            <p></p>
+        </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Otros</h2>
+            <p></p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      	<a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>El empaquetamiento y Instalacion del sistema de informacion</h2>
+            <p></p>
+        </a>
+      </li>
+      </ul>
+     </div><br><br>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+      	<img src="imagenes/disco.png" width="46" height="46">
+      </div>
+     <div>
+     	<h4>App10</h4>
+        <h4>Mayra Sofia Quintero Anaya </h4>
+      </div>
+    </div>
+</div>
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Definicion</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>La programacion Orientada a objetos (POO) es una forma especial de programar,es lo mas cercano a como expresamos las cosas en la vida real,esto es lo  que marca la diferencia con otros tipos de programacion.En java todo se representa como un objeto 
+    
+<div><center>
+ <img src="imagenes/imagen1.jpg" width="50%" height="50%">
+</div>
+
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/dise.jpg" alt="dise" title="dise" id="wows1_0"/></li>
+		<li><img src="data1/images/html.png" alt="html" title="html" id="wows1_1"/></li>
+		<li><img src="data1/images/image2135.jpg" alt="Image2135" title="Image2135" id="wows1_2"/></li>
+		<li><img src="data1/images/image18335.jpg" alt="Image18335" title="Image18335" id="wows1_3"/></li>
+		<li><img src="data1/images/imagen1.jpg" alt="imagen1" title="imagen1" id="wows1_4"/></li>
+		<li><img src="data1/images/imagen2.jpg" alt="imagen2" title="imagen2" id="wows1_5"/></li>
+		<li><img src="data1/images/imail.jpg" alt="imail" title="imail" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/java.png" alt="slider" title="java" id="wows1_7"/></a></li>
+		<li><img src="data1/images/php.png" alt="php" title="php" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="dise"><span><img src="data1/tooltips/dise.jpg" alt="dise"/>1</span></a>
+		<a href="#" title="html"><span><img src="data1/tooltips/html.png" alt="html"/>2</span></a>
+		<a href="#" title="Image2135"><span><img src="data1/tooltips/image2135.jpg" alt="Image2135"/>3</span></a>
+		<a href="#" title="Image18335"><span><img src="data1/tooltips/image18335.jpg" alt="Image18335"/>4</span></a>
+		<a href="#" title="imagen1"><span><img src="data1/tooltips/imagen1.jpg" alt="imagen1"/>5</span></a>
+		<a href="#" title="imagen2"><span><img src="data1/tooltips/imagen2.jpg" alt="imagen2"/>6</span></a>
+		<a href="#" title="imail"><span><img src="data1/tooltips/imail.jpg" alt="imail"/>7</span></a>
+		<a href="#" title="java"><span><img src="data1/tooltips/java.png" alt="java"/>8</span></a>
+		<a href="#" title="php"><span><img src="data1/tooltips/php.png" alt="php"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Tipos de lenguaje</h1>
+        </div>
+       <div>
+           <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>JavaScript:<br>
+      </h1>
+       <div>
+        <p>JavaScript:</p>
+        <p>&nbsp;</p>
+        <br>
+       </div>
+      <div>
+    	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/codigojava.png',1)"><img src="imagenes/java.png" width="50%" height="50%" id="Image33"></a>
+      </div>
+     
+    
+     </div>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Visual Basic<br>
+      </h1>
+       <div>
+        <p>Visual:</p>
+        <p>&nbsp;</p>
+        <br>
+       </div>
+      <div>
+     
+       </div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/codigovisual.png',1)"><img src="imagenes/visual.png" width="300" height="168" id="Image32"></a></div>
+   	    </div>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>php<br>
+      </h1>
+       <div>
+        <p>php:</p>
+        <p>&nbsp;</p>
+        <br>
+       </div>
+      <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/codigophp.png',1)"><img src="imagenes/php.png" width="225" height="225" id="Image29"></a> </div>
+     </div>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>html<br>
+      </h1>
+       <div>
+        <p>html:</p>
+        <br>
+       </div>
+      <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/html.png',1)"><img src="imagenes/codigohtml.png" width="300" height="238" id="Image31"></a> </div>
+     </div>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Python<br>
+      </h1>
+       <div>
+        <p>python:</p>
+        <br>
+       </div>
+      <div>
+     	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/codigopython.png',1)"><img src="imagenes/python.png" width="702" height="326" id="Image30"></a>
+       </div>
+     </div>
+    </div>
+        <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+
+    
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Controles comunes </h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>
+        <b>Nombre:</b>Button su <b>Prefijo es </b>"btn", <b>Descripcion</b>Se utiliza para iniciar,detener o interrumpir un proceso<br><br>
+        <b>Nombre:</b>ComboBox su <b>Prefijo es </b>"cbo", <b>Descripcion</b>Muestra una lista despegable de elementos<br><br>
+        <b>Nombre:</b>PictureBox su <b>Prefijo es </b>"pic", <b>Descripcion</b>Muestra archivos imagenes,tales como mapas bits e iconos <br><br>
+        <b>Nombre:</b>Label su <b>Prefijo es </b>"lbl", <b>Descripcion</b>Muestra texto que los usuarios no pueden modificar<br><br>
+        <b>Nombre:</b>RadioButton su <b>Prefijo es </b>"rdb", <b>Descripcion</b>Muestra un botón que puede activarse o desactivarse<br><br>
+        <b>Nombre:</b>LisBox su <b>Prefijo es </b>"lst", <b>Descripcion</b>Muestra una lista de textos tambien llamados elementos  <br><br>
+        <b>Nombre:</b>TextBox su <b>Prefijo es </b>"txt", <b>Descripcion</b> Muestra texto escrito en tiempo de diseño que puede ser editado por usuarios en tiempo de ejecucion <br><br>
+        
+        <li class="ui-first-child ui-last-child">
+   <a href="https://es.slideshare.net/luismy055/controles-comunes-visual-basic" target="_self" data-role="button">
+    <h3>Más informacion aqui</h3>
+    </a>
+    </li>
+    
+
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/desaupoo2.jpg',1)"><img src="imagenes/desaupoo6.jpg" width="225" height="225" id="Image33"></a>
+        </div>
+      </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+</div>
+
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Funciones de conversion de visual basic</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>variableInteger=CInt(txtCajaTexto.Text)<br><br>
+        variableDoubler=CDbl(txtCajaTexto.Text)<br><br>
+        variableString=CStr(Variable numerica)<br><br>
+        variableDate=CDte(txtCajaTexto.Text)<br><br>
+        variableBoolean=CBool(txtCajaTexto.Text)<br><br>
+        variableLong=CLng(txtCajaTexto.Text)<br><br>
+        variableDecimal=CDe(txtCajaTexto.Text)<br><br>
+        variableInteger=CInt(txtCajaTexto.Text)<br><br>
+        variableVariant=CVar(txtCajaTexto.Text)<br><br>
+        variableNumerica=Val(txtCajaTexto.Text)<br><br>
+
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/diseño.jpg',1)"><img src="imagenes/desaupoo1.jpg" width="275" height="183" id="Image34"></a>
+     
+      </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Analista</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>
+        Los analistas de sistema es el personaje clave en cualquier proyecto de desarrollo de sistemas y desempeño varios papeles  arqueolo y escribano como analista sus principales labores es descubrir detalles y documentos.Innovador es el que dice que es lo mejor de un sistema el medidor el analista trata con todos los usuarios que frecuentemente estan desacuerdo entre si <br> 
+         <li class="ui-first-child ui-last-child">
+   <a href="https://micarreralaboralenit.wordpress.com/2007/12/05/analistas-programadores-que-hacen-y-que-se-necesita-para-serlo/" target="_self" data-role="button">
+    <h3>Más informacion aqui</h3>
+    </a>
+    </li>
+   
+    
+    
+
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','imagenes/Image2135.gif',1)"><img src="imagenes/sistema.jpg" width="50%" height="50%" id="Image57"></a> </div>
+    </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>El  funcionamiento del sistema de informacion</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>
+ <b>Proceso de Alta de Datos</b><br>
+
+
+Para agregar un primer registro con datos dentro de los campos de nuestra tabla, en el enlace pulsaremos en "Insertar":<br>
+
+Insertar registros en la base de datos
+Al hacerlo, aparecerá un formulario desde el que agregaremos uno o dos registros (el segundo es optativo), y, en este caso, 
+añadiremos uno solo:
+
+
+Formulario para agregar datos al registro
+Completaremos los datos en la zona derecha del formulario, la que esta envuelta en un recuadro en la imagen anterior.<br>
+
+Al campo id no será necesario ingresar ningún valor, si bien en la imagen introducimos un 1, perfectamente podríamos dejarlo vacio, ya<br> 
+que el propio programa gestor de MySQL le asignara un valor único, sucesivo, automáticamente (al valor más alto existente del campo id<br> 
+le sumara 1, y ese será el valor que le pondrá al campo id del nuevo registro)<br>
+
+Esto se debe a que hemos definido este campo como "A_l" (auto-increment).<br>
+
+Datos del registro
+Una vez que pulsemos en "Continuar", veremos un mensaje de que se logro insertar la fila, y ya estará habilitado el enlace de la palabra 
+Examinar:<br>
+
+
+<b>Proceso de Bajas de Datos</b><br>
+
+Antes de aprender a borrar un registro, vamos a agregar al menos un registro mas al que ya tenemos, para que nuestra tabla no quede 
+vacia luego de eliminar el –hasta ahora- único registro que posee.
+
+Una vez que añadamos algún registro, ya podemos borrar uno, simplemente pulsando el símbolo en rojo ubicada en el renglón del registro 
+que queremos eliminar.
+
+Borrar registro
+Nos aparecerá una advertencia que pedirá nuestra confirmación:
+
+Confirmar borrar
+Una vez que le damos en Aceptar, el registro desaparecerá definitivamente de nuestra tabla (usar con precaución)
+
+<b>Proceso de Modificacion de Datos</b><br>
+
+Si queremos modificar el valor de alguno de los campos de un registro (debido a un campo de precio en un producto, por ejemplo), pulsaremos 
+el lápiz correspondiente al registro (renglón) que queremos editar, y aparecerá un formulario con los valores de cada campo de este registro 
+ya escritos; en ese momento, escribiremos o borraremos lo que queramos, pulsando, finalmente, en "Continuar" para actualizar el registro 
+definitivamente.<br>
+
+<b>Proceso para Consultas de Datos</b><br>
+
+La información de este artículo explica cómo crear y ejecutar una consulta de creación de tabla en Access. Una consulta de creación de 
+tabla se usa cuando se necesita copiar los datos en una tabla, archivar datos o guardar resultados de una consulta como una tabla.
+
+Para cambiar o actualizar parte de los datos de un conjunto existente de registros (como uno o varios campos), puede usar una consulta de 
+actualización. Para obtener más información sobre las consultas de actualización, vea el artículo Crear y ejecutar una consulta de actualización.
+
+Si necesita agregar registros (filas) a una tabla existente, use una consulta de datos anexados. Para obtener más información sobre las 
+consultas de datos anexados, consulte el artículo Agregar registros a una tabla mediante una consulta de datos anexados.<br>
+
+
+
+
+           
+
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/desaupoo2.jpg',1)"><img src="imagenes/desaupoo1.jpg" width="60%" height="60%" id="Image23"></a> </div>
+     </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+  </div>
+  </div>
+
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Proceso para la creacion de informe de datos</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>
+           
+ELa herramienta de informes es la forma más rápida de crear un informe, porque lo genera inmediatamente sin solicitarle información. El 
+informe muestra todos los campos de la tabla o consulta subyacente. Es posible que la herramienta de informes no cree el producto final 
+elegante que desea, pero es muy útil para buscar rápidamente los datos subyacentes. Después puede guardar el informe y modificarlo en la
+ vista Presentación o Diseño para adaptarlo mejor a sus necesidades.
+
+En el Panel de navegación, haga clic en la tabla o consulta en la que desea basar el informe.
+
+En la pestaña Crear, en el grupo Informes, haga clic en Asistente.  Imagen del botón
+Access crea y muestra el informe en la vista Presentación.
+
+Para obtener más información sobre cómo ver e imprimir el informe, consulte la sección Ver, imprimir o enviar el informe como mensaje de
+correo electrónico.
+
+Después de ver el informe, puede guardarlo y después cerrar el informe y la tabla o consulta subyacente que usó como origen de registros. 
+La próxima vez que abra el informe, Access mostrará los datos más recientes en el origen de <b>registros</b>.
+
+</div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>validacion y Realizacion del sistema de Informacion</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>
+        Los parámetros a comprobar por la especificación son:
+1. Validez: No basta con preguntar a un usuario, todos los potenciales usuarios pueden tener puntos de vista distintos y necesitar otros requisitos. 
+2. Consistencia: No debe haber contradicciones entre unos requisitos y otros. 
+3. Completitud: Deben estar todos los requisitos. Esto es imposible en un desarrollo iterativo, pero, al menos, deben estar disponibles todos los requisitos de la iteración en curso.
+4. Realismo: Se pueden implementar con la tecnología actual.
+5. Verificabilidad: Tiene que existir alguna forma de comprobar que cada requisito se cumple. <br><br>
+<li class="ui-first-child ui-last-child">
+   <a href="https://www.ecured.cu/Validaci%C3%B3n_de_requisitos" target="_self" data-role="button">
+    <h3>Más informacion aqui</h3>
+    </a>
+    </li>
+
+           
+
+ 
+</div>
+      </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>La creacion del sistema de informacion</h1>
+        </div>
+    <div data-role="content" align="center">
+      <div>
+      la infraestructura, el software y los mecanismos de intercambio de información, los elementos de política y regulaciones, además de los recursos financieros.
+
+Los componentes anteriores conforman los protagonistas del desarrollo informático en una sociedad, tanto para su desarrollo como para su aplicación<br>
+<li class="ui-first-child ui-last-child">
+   <a href="https://www.gestiopolis.com/sistemas-informacion-importancia-empresa/" target="_self" data-role="button">
+    <h3>Más informacion aqui</h3>
+    </a>
+    </li>
+
+     </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>Aplicacion 10</h1>
+        </div>
+    <div data-role="content" align="center">
+      <div>
+       Alumna:Mayra Sofia Quintero Anaya<br>4 Semestre Grupo"H"<br>DAM(Desarrolla Aplicaciones Moviles) 
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        	<h1>El empaquetamiento y Instalacion del sistema de informacion</h1>
+        </div>
+    <div data-role="content" align="center">
+        <div>
+        Los paquetes son una forma de distribuir software compilado para una arquitectura concreta. En Windows se distribuyen en comprimidos autoejecutables que autoconfiguran el entorno y en GNU/Linux también, pero de forma más controlada.
+
+Los paquetes de GNU/Linux tienen que cumplir la especificación de ordenación de ficheros que establece la distribución en concreto donde se va a instalar la aplicación, así pues, nos encontramos a este respecto con dos grandes variantes: RPM y DEB.<br>
+<li class="ui-first-child ui-last-child">
+   <a href="https://altenwald.org/2007/02/19/software-empaquetado-y-listo-para-usar/" target="_self" data-role="button">
+    <h3>Más informacion aqui</h3>
+    </a>
+   </li>
+          
+     <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/codigopython.png" alt="codigopython" title="codigopython" id="wows1_0"/></li>
+		<li><img src="data1/images/codigovisual.png" alt="codigovisual" title="codigovisual" id="wows1_1"/></li>
+		<li><img src="data1/images/desaupoo1.jpg" alt="desaupoo1" title="desaupoo1" id="wows1_2"/></li>
+		<li><img src="data1/images/desaupoo2.jpg" alt="desaupoo2" title="desaupoo2" id="wows1_3"/></li>
+		<li><img src="data1/images/desaupoo3.jpg" alt="desaupoo3" title="desaupoo3" id="wows1_4"/></li>
+		<li><img src="data1/images/desaupoo4.jpg" alt="desaupoo4" title="desaupoo4" id="wows1_5"/></li>
+		<li><img src="data1/images/desaupoo5.jpg" alt="desaupoo5" title="desaupoo5" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/desaupoo6.jpg" alt="jquery carousel" title="desaupoo6" id="wows1_7"/></a></li>
+		<li><img src="data1/images/desaupoo7.jpg" alt="desaupoo7" title="desaupoo7" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="codigopython"><span><img src="data1/tooltips/codigopython.png" alt="codigopython"/>1</span></a>
+		<a href="#" title="codigovisual"><span><img src="data1/tooltips/codigovisual.png" alt="codigovisual"/>2</span></a>
+		<a href="#" title="desaupoo1"><span><img src="data1/tooltips/desaupoo1.jpg" alt="desaupoo1"/>3</span></a>
+		<a href="#" title="desaupoo2"><span><img src="data1/tooltips/desaupoo2.jpg" alt="desaupoo2"/>4</span></a>
+		<a href="#" title="desaupoo3"><span><img src="data1/tooltips/desaupoo3.jpg" alt="desaupoo3"/>5</span></a>
+		<a href="#" title="desaupoo4"><span><img src="data1/tooltips/desaupoo4.jpg" alt="desaupoo4"/>6</span></a>
+		<a href="#" title="desaupoo5"><span><img src="data1/tooltips/desaupoo5.jpg" alt="desaupoo5"/>7</span></a>
+		<a href="#" title="desaupoo6"><span><img src="data1/tooltips/desaupoo6.jpg" alt="desaupoo6"/>8</span></a>
+		<a href="#" title="desaupoo7"><span><img src="data1/tooltips/desaupoo7.jpg" alt="desaupoo7"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+
+
+
+    
+        
+        </div>
+  </div>
+    <div data-role="footer" align="center" data-position="fixed">
+    <div>
+    	<img src="imagenes/disco.png" width="46" height="46">
+    </div>
+       <h4>App10, MSQA</h4>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+ 
+
+      
+      
